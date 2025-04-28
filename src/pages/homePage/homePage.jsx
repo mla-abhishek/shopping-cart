@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import ProductCarousel from '../../components/productCarousel/ProductCarousel'
 
 const HomePage = () => {
+  
   return (
-    <div>HomePage</div>
+    <Fragment>
+      <ProductCarousel />
+    </Fragment>
   )
 }
 
